@@ -1,0 +1,6 @@
+models/*.pkl
+models/**/*.pkl
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env

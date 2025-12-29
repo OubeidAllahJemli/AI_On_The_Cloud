@@ -1,4 +1,23 @@
-models/*.pkl
+# Model files (too large for Git)
+deployment/models/*.pkl
+Ghassens_models/*.pkl
+models/**/*.pkl
+
+# Large data files
+*.pkl
+*.h5
+*.hdf5
+*.joblib
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/models/*.pkl
 models/**/*.pkl
 __pycache__/
 *.py[cod]
